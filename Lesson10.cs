@@ -7,9 +7,7 @@ Console.WriteLine();
 Console.Write("Введите ваше число от 1 до 3: ");
 int input = Convert.ToInt32(Console.ReadLine());
 
-bool result = thimbles[input-1];
-
-if (result == true)
+if (--input)
 {
     Console.WriteLine("Да! Вы нашли шарик!");
 }
